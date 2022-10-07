@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 py-2">
+      <select class="form-select" aria-label="Default select example">
+        <option selected>Number of verbs</option>
+        <option *ngFor="let optionVerb of optionsVerbs" [value]="optionVerb.value">{{optionVerb.description}}</option>
+      </select>
+    </div>
+    <div class="col-sm-12 py-2">
+      <button type="button" class="btn btn-primary btn-practice">btn-practice</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="container-fuid">
+      <div class="row">
+        <div class="col-sm-12 py-2">
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Search...">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Make</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Hacer</h6>
+              <!-- <div class="text-end">
+                <a href="#" class="btn btn-info btn-sm"><em class="bi bi-plus-circle-fill"></em></a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Make</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Hacer</h6>
+              <!-- <div class="text-end">
+                <a href="#" class="btn btn-info btn-sm"><em class="bi bi-plus-circle-fill"></em></a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col justify-content-center">
+      <nav aria-label="Page navigation example" class="py-2">
+        <ul class="pagination justify-content-center">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
